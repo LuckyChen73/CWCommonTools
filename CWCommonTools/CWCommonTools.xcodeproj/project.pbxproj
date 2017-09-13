@@ -35,6 +35,7 @@
 		66E0E86A1F6800F70075122E /* CWTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 66E0E8521F6800F70075122E /* CWTextView.m */; };
 		66E0E86B1F6800F70075122E /* ToolView.m in Sources */ = {isa = PBXBuildFile; fileRef = 66E0E8541F6800F70075122E /* ToolView.m */; };
 		66E0E86C1F6800F70075122E /* CWTouchIDManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 66E0E8571F6800F70075122E /* CWTouchIDManager.m */; };
+		66E0E8971F693FED0075122E /* CWStringTansformDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 66E0E8961F693FED0075122E /* CWStringTansformDictionary.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -93,6 +94,8 @@
 		66E0E8561F6800F70075122E /* CWTouchIDManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWTouchIDManager.h; sourceTree = "<group>"; };
 		66E0E8571F6800F70075122E /* CWTouchIDManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWTouchIDManager.m; sourceTree = "<group>"; };
 		66E0E86D1F6801640075122E /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		66E0E8951F693FED0075122E /* CWStringTansformDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWStringTansformDictionary.h; sourceTree = "<group>"; };
+		66E0E8961F693FED0075122E /* CWStringTansformDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWStringTansformDictionary.m; sourceTree = "<group>"; };
 		841C7AD29C472F8131BE1A82 /* Pods-CWCommonTools.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CWCommonTools.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CWCommonTools/Pods-CWCommonTools.debug.xcconfig"; sourceTree = "<group>"; };
 		9674B28A270CC60615C5E051 /* Pods-CWCommonTools.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CWCommonTools.release.xcconfig"; path = "Pods/Target Support Files/Pods-CWCommonTools/Pods-CWCommonTools.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -256,6 +259,8 @@
 				66E0E8491F6800F70075122E /* CWGetMacAddress.m */,
 				66E0E84A1F6800F70075122E /* CWUTF8Chinese.h */,
 				66E0E84B1F6800F70075122E /* CWUTF8Chinese.m */,
+				66E0E8951F693FED0075122E /* CWStringTansformDictionary.h */,
+				66E0E8961F693FED0075122E /* CWStringTansformDictionary.m */,
 			);
 			path = Other;
 			sourceTree = "<group>";
@@ -434,6 +439,7 @@
 				66E0E85B1F6800F70075122E /* UIView+CWBadge.m in Sources */,
 				66E0E85E1F6800F70075122E /* CWDateManager.m in Sources */,
 				66E0E8631F6800F70075122E /* CWColorHex.m in Sources */,
+				66E0E8971F693FED0075122E /* CWStringTansformDictionary.m in Sources */,
 				66E0E8581F6800F70075122E /* CWAnimation.m in Sources */,
 				66E0E80E1F6800E00075122E /* main.m in Sources */,
 				66E0E8691F6800F70075122E /* CWSearchBar.m in Sources */,
