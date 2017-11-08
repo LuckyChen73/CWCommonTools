@@ -22,7 +22,7 @@
 #import "CWGetApplicationInfo.h"
 #import "CWGetMacAddress.h"
 #import "CWTouchIDManager.h"
-
+#import "UIImage+image.h"
 
 #import <Masonry.h>
 

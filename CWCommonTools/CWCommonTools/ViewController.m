@@ -80,6 +80,18 @@
     // 验证并开启指纹解锁
     [KCWTouchIDManager evaluateAuthenticate];
     
+    UIImage *image = [UIImage imageNamed:@"dan"];
+    //第一个参数是图片对象，第二个参数是压的系数，其值范围为0~1。
+    NSData * imageData = UIImageJPEGRepresentation(image, 0.5);
+    UIImage * newImage = [UIImage imageWithData:imageData];
+    
+    NSLog(@"Size of Image(kb):%zd",[imageData length]/1024);
+    
+//    UIImage *image = [UIImage imageWithImage:[UIImage imageNamed:@"dan"] scaledToSize:CGSizeMake(400, 400)];
+    UIImageView *imageView = [[UIImageView alloc]initWithImage:newImage];
+    imageView.frame = CGRectMake(50, 200, 300, 300);
+    [self.view addSubview:imageView];
+    
     
 }
 

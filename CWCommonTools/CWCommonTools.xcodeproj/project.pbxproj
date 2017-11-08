@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		56C1A28A2DEA68B2B1355EB2 /* libPods-CWCommonTools.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 267D783648EC41F1E5B7F384 /* libPods-CWCommonTools.a */; };
+		66A4A4F91F6D18CE00589FDA /* UIImage+image.m in Sources */ = {isa = PBXBuildFile; fileRef = 66A4A4F81F6D18CE00589FDA /* UIImage+image.m */; };
 		66E0E80E1F6800E00075122E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 66E0E80D1F6800E00075122E /* main.m */; };
 		66E0E8111F6800E00075122E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 66E0E8101F6800E00075122E /* AppDelegate.m */; };
 		66E0E8141F6800E00075122E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66E0E8131F6800E00075122E /* ViewController.m */; };
@@ -40,6 +41,8 @@
 
 /* Begin PBXFileReference section */
 		267D783648EC41F1E5B7F384 /* libPods-CWCommonTools.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CWCommonTools.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		66A4A4F71F6D18CE00589FDA /* UIImage+image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+image.h"; sourceTree = "<group>"; };
+		66A4A4F81F6D18CE00589FDA /* UIImage+image.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+image.m"; sourceTree = "<group>"; };
 		66E0E8091F6800E00075122E /* CWCommonTools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CWCommonTools.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		66E0E80D1F6800E00075122E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		66E0E80F1F6800E00075122E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -121,6 +124,15 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		66A4A4F61F6D189800589FDA /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				66A4A4F71F6D18CE00589FDA /* UIImage+image.h */,
+				66A4A4F81F6D18CE00589FDA /* UIImage+image.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
 		66E0E8001F6800E00075122E = {
 			isa = PBXGroup;
 			children = (
@@ -169,6 +181,7 @@
 			isa = PBXGroup;
 			children = (
 				66E0E8381F6800F70075122E /* Header.h */,
+				66A4A4F61F6D189800589FDA /* Category */,
 				66E0E8241F6800F70075122E /* Animation */,
 				66E0E8271F6800F70075122E /* Badge */,
 				66E0E82E1F6800F70075122E /* CurrentAndParentVC */,
@@ -433,6 +446,7 @@
 				66E0E85F1F6800F70075122E /* DateAndTimestamp.m in Sources */,
 				66E0E85C1F6800F70075122E /* NSObject+Tool.m in Sources */,
 				66E0E8681F6800F70075122E /* CWGraphic.m in Sources */,
+				66A4A4F91F6D18CE00589FDA /* UIImage+image.m in Sources */,
 				66E0E8111F6800E00075122E /* AppDelegate.m in Sources */,
 				66E0E8671F6800F70075122E /* CWUTF8Chinese.m in Sources */,
 				66E0E8661F6800F70075122E /* CWGetMacAddress.m in Sources */,
