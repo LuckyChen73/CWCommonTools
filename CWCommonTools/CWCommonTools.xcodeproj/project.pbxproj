@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		56C1A28A2DEA68B2B1355EB2 /* libPods-CWCommonTools.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 267D783648EC41F1E5B7F384 /* libPods-CWCommonTools.a */; };
+		665FEBBE1FCD323D00F7A617 /* UILabel+extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 665FEBBD1FCD323D00F7A617 /* UILabel+extension.m */; };
+		665FEBC11FCD32A700F7A617 /* UIButton+extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 665FEBC01FCD32A700F7A617 /* UIButton+extension.m */; };
+		665FEBC41FCD33A900F7A617 /* UIImageView+extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 665FEBC31FCD33A900F7A617 /* UIImageView+extension.m */; };
 		66A4A4F91F6D18CE00589FDA /* UIImage+image.m in Sources */ = {isa = PBXBuildFile; fileRef = 66A4A4F81F6D18CE00589FDA /* UIImage+image.m */; };
 		66E0E80E1F6800E00075122E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 66E0E80D1F6800E00075122E /* main.m */; };
 		66E0E8111F6800E00075122E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 66E0E8101F6800E00075122E /* AppDelegate.m */; };
@@ -41,6 +44,12 @@
 
 /* Begin PBXFileReference section */
 		267D783648EC41F1E5B7F384 /* libPods-CWCommonTools.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CWCommonTools.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		665FEBBC1FCD323D00F7A617 /* UILabel+extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UILabel+extension.h"; sourceTree = "<group>"; };
+		665FEBBD1FCD323D00F7A617 /* UILabel+extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UILabel+extension.m"; sourceTree = "<group>"; };
+		665FEBBF1FCD32A700F7A617 /* UIButton+extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+extension.h"; sourceTree = "<group>"; };
+		665FEBC01FCD32A700F7A617 /* UIButton+extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+extension.m"; sourceTree = "<group>"; };
+		665FEBC21FCD33A900F7A617 /* UIImageView+extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImageView+extension.h"; sourceTree = "<group>"; };
+		665FEBC31FCD33A900F7A617 /* UIImageView+extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+extension.m"; sourceTree = "<group>"; };
 		66A4A4F71F6D18CE00589FDA /* UIImage+image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+image.h"; sourceTree = "<group>"; };
 		66A4A4F81F6D18CE00589FDA /* UIImage+image.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+image.m"; sourceTree = "<group>"; };
 		66E0E8091F6800E00075122E /* CWCommonTools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CWCommonTools.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -129,6 +138,12 @@
 			children = (
 				66A4A4F71F6D18CE00589FDA /* UIImage+image.h */,
 				66A4A4F81F6D18CE00589FDA /* UIImage+image.m */,
+				665FEBBC1FCD323D00F7A617 /* UILabel+extension.h */,
+				665FEBBD1FCD323D00F7A617 /* UILabel+extension.m */,
+				665FEBBF1FCD32A700F7A617 /* UIButton+extension.h */,
+				665FEBC01FCD32A700F7A617 /* UIButton+extension.m */,
+				665FEBC21FCD33A900F7A617 /* UIImageView+extension.h */,
+				665FEBC31FCD33A900F7A617 /* UIImageView+extension.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -433,12 +448,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				665FEBBE1FCD323D00F7A617 /* UILabel+extension.m in Sources */,
+				665FEBC11FCD32A700F7A617 /* UIButton+extension.m in Sources */,
 				66E0E85A1F6800F70075122E /* UITabBarItem+CWBadge.m in Sources */,
 				66E0E8591F6800F70075122E /* UITabBar+CWBadge.m in Sources */,
 				66E0E86C1F6800F70075122E /* CWTouchIDManager.m in Sources */,
 				66E0E8611F6800F70075122E /* CW_AFNetworkManager.m in Sources */,
 				66E0E8651F6800F70075122E /* CWGetApplicationInfo.m in Sources */,
 				66E0E8141F6800E00075122E /* ViewController.m in Sources */,
+				665FEBC41FCD33A900F7A617 /* UIImageView+extension.m in Sources */,
 				66E0E85D1F6800F70075122E /* UIView+Tool.m in Sources */,
 				66E0E8621F6800F70075122E /* CWNetworkRequestCenter.m in Sources */,
 				66E0E86A1F6800F70075122E /* CWTextView.m in Sources */,
